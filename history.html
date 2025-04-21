@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <header>
+        <h1>Historical Data</h1>
+        <button onclick="window.location.href='index.html'" 
+                class="btn btn-cyber">Back to Dashboard</button>
+    </header>
+
+    <section class="graph-container fade-in">
+        <div id="temperature-graph"></div>
+        <div id="tds-graph"></div>
+        <div id="turbidity-graph"></div>
+        <div id="ph-graph"></div>
+    </section>
+
+    <script src="history.js"></script>
+</body>
+</html>
